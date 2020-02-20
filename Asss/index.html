@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<style type = "text/css">
+#slider {
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 200%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+#slider figure img{
+	width: 50%;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	50%
+	
+	}
+
+}
+</style>	
+</head>
+<body>
+	<header>
+        <div class = "header - container">
+
+		    <div class = "container">
+		    	<img src= "logo.jpg" alt="logo" class="logo">
+              </div>
+        
+		    <nav>
+			    <ul>
+				    <li> <a href= "#" > HOME </a></li>
+				    <li> <a href= "#" > ABOUT US </a></li>
+				    <li> <a href= "#" > CONTACT US </a></li>
+
+    			</ul>
+            </nav>
+         </div>
+    </header>
+
+    <section class = "sec1">   
+		<div id = "slider">
+			<figure>
+				<img src = "1.jpg">
+				<img src = "2.jpg">
+				<img src = "3.png">
+			</figure>
+			
+		</div>
+	</section class = "sec1">
+	<section id = "sec2">
+		<h3> ME<span>R</span>CH</h3>
+	</section>
+
+</body>
+</html>
